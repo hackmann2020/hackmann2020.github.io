@@ -10,7 +10,7 @@ p {
 
 html, body {
 	height: 100%;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Raleway';
 	scroll-behavior: smooth;
 }
 
@@ -117,6 +117,7 @@ body {
 }
 
 .mann {
+	font-family: "Roboto Mono", monospace;
 	color: #9E191F;
 	font-weight: 800;
 }
@@ -126,7 +127,7 @@ body {
 	top: -200%;
 }
 
-#schedule {
+.schedule {
 	font-size: 125%;
 }
 
@@ -331,4 +332,20 @@ body {
     top: 40%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
     width: 60%; /* Set the width of the positioned div */
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-family: "Roboto Mono", monospace;
+}
+
+.subtitle {
+	font-family: 'Raleway', sans-serif;
+}
+
+.day-header {
+	margin-top: 2%;
 }

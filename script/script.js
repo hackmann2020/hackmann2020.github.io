@@ -58,7 +58,7 @@ function animateBits() {
     const BITS_ID = 'bits';
     const BITS_TEXT = 'bits';
     const BITS_ANIMATE_INTERVAL = 50.0;
-    const BITS_ANIMATE_DURATION = 1800.0;
+    const BITS_ANIMATE_DURATION = 2000.0;
     var ticks = 0;
     var animateBITS_ID = window.setInterval(function() {
         var len = Math.floor(ticks / (BITS_ANIMATE_DURATION / BITS_ANIMATE_INTERVAL) * BITS_TEXT.length);

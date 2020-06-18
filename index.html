@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="lib/bootstrap.min.css" />
     <link rel="stylesheet" href="style/main.css" />
 </head>
@@ -25,8 +27,8 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#scroll-about">About</a></li>
                 <li><a href="#scroll-schedule">Schedule</a></li>
-                <li><a href="#scroll-contact">Contact</a></li>
-                <li class="visible-xs"><a href="#scroll-register">Register</a></li>
+                <li><a href="#scroll-team">The Team</a></li>
+                <li class="visible-xs"><a href="https://hmftc.typeform.com/to/Ix6dRr">Register</a></li>
                 <li><a href="#scroll-sponsors">Sponsors</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right hidden-xs">
@@ -44,7 +46,7 @@
             <h2 class="text-center animated fadeIn">Hack your code to <code id="bits">1010</code>.</h2>
             <h3 class="text-center subtitle animated fadeInUp"><b><span class="text-primary">Friday June 26th</span></b> to <b><span class="text-primary">Sunday June 28th</span></b></h3>
             <h2 class="text-center animated fadeInUp">
-                <a href="https://hmftc.typeform.com/to/Ix6dRr" style="background-color: #9E191F;" class="btn btn-primary btn-lg subtitle" role="button">Register</a>
+                <a href="https://hmftc.typeform.com/to/Ix6dRr" style="background-color: #9E191F;" class="btn btn-primary btn-lg subtitle" role="button">Register Now!</a>
             </h2>
         </div>
     </div>
@@ -69,7 +71,18 @@
         </div>
         <div class="col-sm-4">
             <h3>You mentioned winners. Are there prizes?</h3>
-            <p class="text-justify">Yes! Teams will be judged in various categories, including ones specifically designed for complete beginners and for middle schoolers. Prizes in the form of swag and gadgets will be awarded for the best project in each of these categories.</p>
+            <p class="text-justify">Yes! The awards are given out based on creativity, usefuleness, and technical prowess. There will also be a special prize given out for beginner programmers. The prizes are as follow*:</p>
+            <div class="prizes center-text">
+                <ul style="list-style-type:none">
+                    <li>1st Place: Apple Watch 3-Series</li>
+                    <li>2nd Place: Holy Stone Camera Drone</li>
+                    <li>3rd Place: JBL Charge 4 Bluetooth Speaker</li>
+                </ul>
+                <ul style="list-style-type:none">
+                    <li>Best Beginner Hack: Google Nest Hub</li>
+                </ul>
+            </div>
+            <small style="font-size:14px;" class="text-justify">*Prizes may vary depending on stock/shipping options to prize winners.</small>
         </div>
     </div>
     <hr/>
@@ -80,13 +93,13 @@
                 <div class="row">
                     <h2 class="text-center"><b>Register</b> here for <span class="brand"><code class="mann">HACKMANN 2020</code></span>!</h2>
                 </div>
-                <br><br>
+                <br>
                 <div id="register-form-status" class="hidden row alert" role="alert">
                     <b><span id="register-form-status-title"></span></b> <span id="register-form-status-message"></span>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="btn btn-primary center-block" href="https://hmftc.typeform.com/to/Ix6dRr" target="_blank" style="width:10%; background-color: #9E191F; ">Register</a>
+                        <a class="btn btn-primary center-block reg-btn" href="https://hmftc.typeform.com/to/Ix6dRr" target="_blank" style="width:10%; background-color: #9E191F; ">Register</a>
                     </div>
                 </div>
             </form>
@@ -142,38 +155,86 @@
         <div class="col-sm-3"></div>
     </div>
     <hr />
-    <div id="contact" class="row">
-        <a id="scroll-contact" class="scroll-anchor"></a>
-        <h3 class="text-center">Questions? Contact the organizers!</h3>
-        <!-- <div class="col-sm-4">
-            <a class="text-center" href="https://www.facebook.com/horacemannhackathon" target="_blank">
-                <img class="center-block" src="img/facebook-icon.svg" alt="facebook-icon" />
-                <h4>@horacemannhackathon</h4>
-            </a>
+    <a id="scroll-team" class="scroll-anchor"></a>
+    <div class="container text-center">
+        <h3>Meet the Team!</h3>
+        <h4>Feel free to reach out to any one of the organizers if you have questions about HackMann 2020!</h4>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <h4 class="mono" >Shrey Sahgal</h4>
+                    <img src="img/ShreySahgal.jpg" class="img-circle card-img-top" style="width:30%;;">
+                    <div class="card-body" style="padding-top:3%;">
+                        <p class="card-body">Shrey Sahgal is a recent graduate of the Horace Mann School and will be joining the University of Michigan’s College of Engineering Class of 2024 where he intends to study computer science and physics. By day awake and by night asleep (though quarantine has put a strain on this characteristic), Shrey is always ready step up to any challenge that organizing HackMann provides whether it’s shameless promotion, shameless promotion, or shameless promotion. Beyond classes/hackathon-organizing, Shrey enjoys thinking about doing things then not really getting around to actually doing them.</p>
+                        <div>
+                            <p class="socials">
+                                <a href="mailto::shreyps@umich.edu" class="dark-text"><i class="fa fa-envelope" aria-hidden="true"></i>  shreyps@umich.edu</a>
+                            </p>
+                            <p class="socials">
+                                <i class="fab fa-discord" aria-hidden="true"></i>  shreyyy#0723
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 center-block">
+                <div class="card">
+                    <h4 class="mono" >Reha Mathur</h4>
+                    <img src="img/RehaMathur.jpg" class="img-circle card-img-top" style="width:30%;;">
+                    <div class="card-body" style="padding-top:3%;">
+                        <p class="card-body">Reha Mathur is a recently-christened Horace Mann alumna excited to study computer science and computational chemistry in Princeton University’s College of Engineering (Class of 2024). Though happy and well-adjusted in her youth, Reha was doomed to study computer science after being kidnapped and raised by feral engineers in the New Jersey wilderness. Outside of her classes, Reha enjoys reading, long walks on beach, and taking her anger out on simulated beings of her own creation in the Sims.</p>
+                        <div>
+                            <p class="socials">
+                                <a href="mailto::reham@princeton.edu" class="dark-text"><i class="fa fa-envelope" aria-hidden="true"></i>  reham@princeton.edu</a>
+                            </p>
+                            <p class="socials">
+                                <i class="fab fa-discord" aria-hidden="true"></i>  reha54321#4179
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-4">
-            <a class="text-center" href="https://twitter.com/@hackmannhacks" target="_blank">
-                <img class="center-block" src="img/twitter-icon.svg" alt="twitter-icon" />
-                <h4>@hackmannhacks</h4>
-            </a>
-        </div> -->
-        <div>
-            <img class="center-block" src="img/email-icon.svg" alt="email-icon" />
-            <a class="text-center" href="mailto:shrey_sahgal@horacemann.org?subject=HACKMANN%202020" target="_blank">
-                <h4>shrey_sahgal@horacemann.org</h4>
-            </a>
-            <a class="text-center" href="mailto:reha_mathur@horacemann.org?subject=HACKMANN%202020" target="_blank">
-                <h4>reha_mathur@horacemann.org</h4>
-            </a>
-            <a class="text-center" href="mailto:henry_bloom@horacemann.org?subject=HACKMANN%202020" target="_blank">
-                <h4>henry_bloom@horacemann.org</h4>
-            </a>
-            <a class="text-center" href="mailto:alexis_fry@horacemann.org?subject=HACKMANN%202020" target="_blank">
-                <h4>alexis_fry@horacemann.org</h4>
-            </a><a class="text-center" href="mailto:shrey_sahgal@horacemann.org?subject=HACKMANN%202020" target="_blank">
-            </a>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <h4 class="mono" >Alexis Fry</h4>
+                    <img src="img/AlexisFry.png" class="img-circle card-img-top" style="width:30%;;">
+                    <br>
+                    <div class="card-body" style="padding-top:3%;">
+                        <p class="card-body">Alexis Fry is a current senior at the Horace Mann School and to-be co-captain of Horace Mann FTC Robotics. Alexis is also the cofounder of weSTEM which is a startup that leverages high functionality tech to connect young girls to STEM opportunities. When not programming or robot-ing, Alexis can be found shamelessly chugging bottles of Tabasco sauce (ok maybe she has a little shame) or making paper cranes out of important documents.</p>
+                        <div>
+                            <p class="socials">
+                                <a href="mailto::alexis_fry@horacemann.org" class="dark-text"><i class="fa fa-envelope" aria-hidden="true"></i>  alexis_fry@horacemann.org</a>
+                            </p>
+                            <p class="socials">
+                                <i class="fab fa-discord" aria-hidden="true"></i>  afry477#6042
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <h4 class="mono" >Henry Bloom</h4>
+                    <img src="img/HenryBloom.jpg" class="img-circle card-img-top" style="width:30%;;">
+                    <div class="card-body" style="padding-top:3%;">
+                        <p class="card-body">Inaugural Horace Mann Super Smash Brothers Tournament Champion Henry Bloom is, first and foremost, a gamer. Step to him and you will get rekt, noob. Taking after his surrogate father, Tyler “Fortnite Ninja” Blevins, Henry’s mission is to spread the gospel of gaming to the world. While not guzzling down Nacho Cheese Doritos, Henry is a student at the Horace Mann School (currently a senior). Henry is the HackMann crew’s Discord Savant and is not afraid to drop the almighty ban hammer on fools who misbehave.</p>
+                        <div>
+                            <p class="socials">
+                                <a href="mailto::henry_bloom@horacemann.org" class="dark-text"><i class="fa fa-envelope" aria-hidden="true"></i>  henry_bloom@horacemann.org</a>
+                            </p>
+                            <p class="socials">
+                                <i class="fab fa-discord" aria-hidden="true"></i>  larjboi#2810
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
+    </div>
     </div>
     <hr />
     <div id="sponsors" class="row">
